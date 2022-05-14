@@ -2,7 +2,7 @@
 {
     public class Class1
     {
-        static int FPB(int input1, int input2)
+       public static int FPB(int input1, int input2)
         {
             while (input2 != 0)
             {
@@ -12,15 +12,15 @@
             }
             return input1;
         }
-        static int KPK(int input1, int input2)
+        public static int KPK(int input1, int input2)
         {
             return input1 / FPB(input1, input2) * input2; ;
         }
-        static void Turunan(int[] persamaan)
+        public static void Turunan(int[] persamaan)
         {
 
         }
-        static void Integral(int[] persamaan)
+        public static void Integral(int[] persamaan)
         {
 
         }
